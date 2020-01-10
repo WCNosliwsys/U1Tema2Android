@@ -1,10 +1,12 @@
-package com.ingwilson.u1tema2android;
+package com.ingwilson.u1tema2android.FragmentTabhost;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FragmentTabhost extends AppCompatActivity {
+import com.ingwilson.u1tema2android.R;
+
+public class MiFragmentTabhost extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

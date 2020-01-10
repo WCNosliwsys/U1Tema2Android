@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.ingwilson.u1tema2android.FragmentTabhost.MiFragmentTabhost;
+import com.ingwilson.u1tema2android.Multimedia.Multimedia;
+import com.ingwilson.u1tema2android.mirecyclerview.MiRecyclerView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -47,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.activity_mirecyclerview) {
             startActivity(new Intent(this, MiRecyclerView.class));
+            return true;
+        }
+        if (id == R.id.activity_mifragmenttabhost) {
+            startActivity(new Intent(this, MiFragmentTabhost.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
